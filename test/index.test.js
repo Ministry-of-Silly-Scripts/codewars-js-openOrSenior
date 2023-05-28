@@ -24,4 +24,8 @@ describe("openOrSenior", () => {
   test("it should return ['Open'] for the input [55, 6] since first element is greater then 55 and the second lower than 7", () => {
     expect(openOrSenior([[55, 7]])).toStrictEqual(["Open"]);
   });
+
+  test("it should return ['Open', 'Open', 'Senior', 'Open', 'Open', 'Senior'] for the input [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]", () => {
+    expect(openOrSenior([[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]])).toStrictEqual(['Open', 'Open', 'Senior', 'Open', 'Open', 'Senior']);
+  });
 });

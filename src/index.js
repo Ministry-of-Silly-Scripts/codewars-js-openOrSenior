@@ -3,13 +3,16 @@ const openOrSenior = (membersInfo) => {
     return []
   }
 
-  if (membersInfo[0][0] >= 55) { 
-    if (membersInfo[0][1] > 7) {
-      return ["Senior"]
+  out = []
+  for (member of membersInfo){ 
+    if (member[0] >= 55 && member[1] > 7) {
+      out.push("Senior")
+    } else {
+      out.push("Open")
     }
   }
 
-  return ["Open"]
+  return out;
 };
 
 module.exports = {
