@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const openOrSenior = () => true;
 
 module.exports = {
-  placeholder,
+  openOrSenior,
 };

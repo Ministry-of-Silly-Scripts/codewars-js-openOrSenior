@@ -1,8 +1,8 @@
-# XXXXX kata 
+# Categorize New Member kata 
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Categorize New Member kata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Categorize New Member on CodeWars](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa)
 
 ## Prerequisites
 

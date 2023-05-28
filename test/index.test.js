@@ -1,5 +1,5 @@
-const { placeholder } = require("../src/index");
+const { openOrSenior } = require("../src/index");
 
-test("test placeholder", () => {
-  expect(placeholder(0)).toBe(true);
+test("test openOrSenior", () => {
+  expect(openOrSenior(0)).toBe(true);
 });
