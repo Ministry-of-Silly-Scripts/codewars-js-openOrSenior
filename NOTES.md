@@ -40,6 +40,8 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 ---
 
 TODO:
+# Pomodoro 2 🍅:
+- is should receive a list with the pair [18, 20] as input and return a list with ["Open"] as output p✅
 
 # Pomodoro 1 🍅:
 - initial setup

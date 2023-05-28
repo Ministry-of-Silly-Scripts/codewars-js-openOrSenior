@@ -1,5 +1,9 @@
 const openOrSenior = (membersInfo) => {
-  return []
+  if (membersInfo.length === 0) {
+    return []
+  }
+
+  return ["Open"]
 };
 
 module.exports = {
