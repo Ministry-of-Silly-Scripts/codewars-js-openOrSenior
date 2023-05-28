@@ -3,6 +3,10 @@ const openOrSenior = (membersInfo) => {
     return []
   }
 
+  if (membersInfo[0][0] >= 55) {
+    return ["Senior"]
+  }
+
   return ["Open"]
 };
 
